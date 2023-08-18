@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="bg-main-1 min-h-[100vh] grid grid-cols-1 justify-center items-center p-5"
+    >
+      <div class="calculator">
+        <section class="grid grid-cols-2">
+          <h1 class="font-bold text-[3rem] text-white">calc</h1>
+
+          <div class="flex gap-2 items-center h-full font-bold text-white">
+            <span class="text-[1.5rem] uppercase">theme</span>
+
+            <div
+              class="relative flex items-center w-[8rem] m-auto p-1 bg-toggle-1 rounded-full"
+            >
+              <span class="absolute w-1/3 top-[-2rem] text-center text-[1.5rem]"
+                >1</span
+              >
+              <span
+                class="absolute w-1/3 top-[-2rem] left-[50%] right-[50%] text-center text-[1.5rem]"
+                >2</span
+              >
+              <span
+                class="absolute w-1/3 top-[-2rem] right-[0] text-center text-[1.5rem]"
+                >3</span
+              >
+              <button class="bg-key2-bg-1 w-4 h-4 rounded-full"></button>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <input
+            type="number"
+            disabled
+            class="screen w-full rounded-xl h-[10rem] mt-4 bg-screen-1"
+          />
+
+          <div
+            class="calculator-nums grid grid-cols-4 grid-rows-5 gap-3 mt-3 p-3 py-5 bg-toggle-1 rounded-xl"
+          >
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              9
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              8
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              7
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              6
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              5
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              4
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              3
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              2
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              1
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              0
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              .
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              +
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              -
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              *
+            </span>
+            <span
+              class="num bg-key3-bg-2 border-b-5 border-key3-shadow-1 p-3 rounded-xl font-bold text-grayish-blue text-[3rem] text-center uppercase"
+            >
+              /
+            </span>
+            <span
+              class="num bg-key2-bg-1 border-b-5 border-key2-shadow-1 p-3 rounded-xl font-bold text-[3rem] text-white text-center uppercase"
+            >
+              =
+            </span>
+            <span
+              class="num bg-key1-bg-1 border-b-5 border-key1-shadow-1 p-3 rounded-xl font-bold text-[3rem] text-white text-center uppercase"
+            >
+              del
+            </span>
+            <span
+              class="num bg-key1-bg-1 border-b-5 border-key1-shadow-1 p-3 rounded-xl font-bold text-[3rem] text-white text-center uppercase"
+            >
+              reset
+            </span>
+          </div>
+        </section>
+      </div>
+
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Daniel B. Ezekiel</a>.
+      </div> -->
+    </main>
+  </body>
+</html>
