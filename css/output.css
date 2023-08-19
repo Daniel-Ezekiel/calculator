@@ -558,8 +558,69 @@ video {
   top: -2rem;
 }
 
+.left-\[-50\%\] {
+  left: -50%;
+}
+
+.right-\[-50\%\] {
+  right: -50%;
+}
+
+.left-1 {
+  left: 0.5rem;
+}
+
+.left-\[0\] {
+  left: 0;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-start-3 {
+  grid-row-start: 3;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mt-3 {
@@ -590,6 +651,26 @@ video {
   height: 100%;
 }
 
+.h-8 {
+  height: 4rem;
+}
+
+.h-\[4rem\] {
+  height: 4rem;
+}
+
+.h-\[6rem\] {
+  height: 6rem;
+}
+
+.h-\[7rem\] {
+  height: 7rem;
+}
+
+.h-\[6\.5rem\] {
+  height: 6.5rem;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -608,6 +689,23 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[40rem\] {
+  max-width: 40rem;
+}
+
+.max-w-\[45rem\] {
+  max-width: 45rem;
+}
+
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-cols-1 {
@@ -721,6 +819,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-2 {
+  padding: 1rem;
+}
+
 .py-5 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -736,6 +838,26 @@ video {
 
 .text-\[3rem\] {
   font-size: 3rem;
+}
+
+.text-xl {
+  font-size: 1.8rem;
+}
+
+.text-2xl {
+  font-size: 2rem;
+}
+
+.text-3xl {
+  font-size: 2.5rem;
+}
+
+.text-4xl {
+  font-size: 3rem;
+}
+
+.text-5xl {
+  font-size: 3.5rem;
 }
 
 .font-bold {
@@ -758,3 +880,21 @@ video {
 
 /* @layer base {
 } */
+
+@media (min-width: 768px) {
+  .md\:w-\[40rem\] {
+    width: 40rem;
+  }
+
+  .md\:w-\[38rem\] {
+    width: 38rem;
+  }
+
+  .md\:w-\[37rem\] {
+    width: 37rem;
+  }
+
+  .md\:w-\[35rem\] {
+    width: 35rem;
+  }
+}
