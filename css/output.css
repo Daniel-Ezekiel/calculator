@@ -901,4 +901,12 @@ video {
   .md\:w-\[35rem\] {
     width: 35rem;
   }
+
+  .md\:w-\[45rem\] {
+    width: 45rem;
+  }
+
+  .md\:w-\[50rem\] {
+    width: 50rem;
+  }
 }

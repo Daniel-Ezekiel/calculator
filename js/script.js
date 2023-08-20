@@ -3,11 +3,8 @@
 // Query Selectors
 const calculator = document.querySelector('.calculator');
 const screen = document.querySelector('.screen');
-const nums = document.querySelectorAll('.num');
-const operators = document.querySelectorAll('.operator');
-const btnDel = document.querySelector('.btn-delete');
-const btnReset = document.querySelector('.btn-reset');
 
+// Calculator Class
 class Calc {
   firstOperand = '';
   secondOperand = '';
@@ -64,16 +61,14 @@ calculator.addEventListener('click', e => {
   e.preventDefault();
   const targetEl = e.target;
 
-  if (targetEl.classList.contains('num')) {
+  if (targetEl.classList.contains('num'))
     newCalc.secondOperand += targetEl.textContent.trim();
-  }
 
   if (
     targetEl.classList.contains('point') &&
     !newCalc.secondOperand.includes('.')
-  ) {
+  )
     newCalc.secondOperand += targetEl.textContent.trim();
-  }
 
   if (targetEl.classList.contains('operation')) {
     newCalc.firstOperand && newCalc.secondOperand && newCalc.eval();
@@ -82,20 +77,15 @@ calculator.addEventListener('click', e => {
     newCalc.secondOperand = '';
   }
 
-  if (targetEl.classList.contains('btn-delete')) {
-    newCalc.delete();
-  }
-
-  if (targetEl.classList.contains('btn-reset')) {
-    newCalc.reset();
-  }
-
-  if (targetEl.classList.contains('evaluate')) {
+  // Delete num value
+  if (targetEl.classList.contains('btn-delete')) newCalc.delete();
+  // Reset calcullator values
+  if (targetEl.classList.contains('btn-reset')) newCalc.reset();
+  // Evaluate operands
+  if (targetEl.classList.contains('evaluate'))
     newCalc.firstOperand && newCalc.secondOperand && newCalc.eval();
-  }
 
   screen.value = newCalc.secondOperand;
-  console.log(newCalc.firstOperand, newCalc.secondOperand);
 });
 
 // class Calc {
