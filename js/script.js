@@ -49,7 +49,7 @@ class Calc {
   }
 
   delete() {
-    this.secondOperand = this.secondOperand.slice(0, -1);
+    this.secondOperand = this.secondOperand.toString().slice(0, -1);
   }
 
   reset() {
@@ -76,10 +76,10 @@ calculator.addEventListener('click', e => {
   }
 
   if (targetEl.classList.contains('operation')) {
+    newCalc.firstOperand && newCalc.secondOperand && newCalc.eval();
+    newCalc.operation = targetEl.dataset.operation;
     newCalc.firstOperand = newCalc.secondOperand;
     newCalc.secondOperand = '';
-
-    newCalc.operation = targetEl.dataset.operation;
   }
 
   if (targetEl.classList.contains('btn-delete')) {
@@ -95,7 +95,7 @@ calculator.addEventListener('click', e => {
   }
 
   screen.value = newCalc.secondOperand;
-  console.log(newCalc.secondOperand);
+  console.log(newCalc.firstOperand, newCalc.secondOperand);
 });
 
 // class Calc {
