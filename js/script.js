@@ -73,7 +73,7 @@ calculator.addEventListener('click', e => {
   if (targetEl.classList.contains('operation')) {
     newCalc.firstOperand && newCalc.secondOperand && newCalc.eval();
     newCalc.operation = targetEl.dataset.operation;
-    newCalc.firstOperand = newCalc.secondOperand;
+    newCalc.secondOperand && (newCalc.firstOperand = newCalc.secondOperand);
     newCalc.secondOperand = '';
   }
 
