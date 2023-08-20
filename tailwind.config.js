@@ -39,50 +39,48 @@ module.exports = {
     fontFamily: {
       sans: ['"League Spartan"', 'sans-serif', 'system-ui'],
     },
+    //   // Backgrounds
+    //   'theme1-main': '#3a4764',
+    //   'theme2-main': '#e6e6e6',
+    //   'theme3-main': '#160628',
 
-    colors: {
-      // Backgrounds
-      'theme1-main': '#3a4764',
-      'theme2-main': '#e6e6e6',
-      'theme3-main': '#160628',
+    //   'theme1-toggle': '#232c43',
+    //   'theme2-toggle': '#d1cccc',
+    //   'theme3-toggle': '#1d0934',
 
-      'theme1-toggle': '#232c43',
-      'theme2-toggle': '#d1cccc',
-      'theme3-toggle': '#1d0934',
+    //   'theme1-screen': '#182034',
+    //   'theme2-screen': '#ededed',
+    //   'theme3-screen': '#1d0934',
 
-      'theme1-screen': '#182034',
-      'theme2-screen': '#ededed',
-      'theme3-screen': '#1d0934',
+    //   // Keys
+    //   'theme1-keybg-1': '#637097',
+    //   'theme1-keybg-2': '#d03f2f',
+    //   'theme1-keybg-3': '#eae3dc',
+    //   'theme1-keyshadow-1': '#404e72',
+    //   'theme1-keyshadow-2': '#93261a',
+    //   'theme1-keyshadow-3': '#b4a597',
 
-      // Keys
-      'theme1-keybg-1': '#637097',
-      'theme1-keybg-2': '#d03f2f',
-      'theme1-keybg-3': '#eae3dc',
-      'theme1-keyshadow-1': '#404e72',
-      'theme1-keyshadow-2': '#93261a',
-      'theme1-keyshadow-3': '#b4a597',
+    //   'theme2-keybg-1': '#377f86',
+    //   'theme2-keybg-2': '#ca5502',
+    //   'theme2-keybg-3': '#e5e4e1',
+    //   'theme2-keyshadow-1': '#1b5f65',
+    //   'theme2-keyshadow-2': '#893901',
+    //   'theme2-keyshadow-3': '#a69d91',
 
-      'theme2-keybg-1': '#377f86',
-      'theme2-keybg-2': '#ca5502',
-      'theme2-keybg-3': '#e5e4e1',
-      'theme2-keyshadow-1': '#1b5f65',
-      'theme2-keyshadow-2': '#893901',
-      'theme2-keyshadow-3': '#a69d91',
+    //   'theme3-keybg-1': '#58077d',
+    //   'theme3-keybg-2': '#00e0d1',
+    //   'theme3-keybg-3': '#341c4f',
+    //   'theme3-keyshadow-1': '#bc15f4',
+    //   'theme3-keyshadow-2': '#6cf9f2',
+    //   'theme3-keyshadow-3': '#871c9c',
 
-      'theme3-keybg-1': '#58077d',
-      'theme3-keybg-2': '#00e0d1',
-      'theme3-keybg-3': '#341c4f',
-      'theme3-keyshadow-1': '#bc15f4',
-      'theme3-keyshadow-2': '#6cf9f2',
-      'theme3-keyshadow-3': '#871c9c',
-
-      // Text
-      'grayish-blue': '#444b5a',
-      'grayish-yellow': '#35352c',
-      'light-yellow': '#ffe53d',
-      'dark-blue': '#1b2428',
-      white: '#fff',
-    },
+    //   // Text
+    //   'grayish-blue': '#444b5a',
+    //   'grayish-yellow': '#35352c',
+    //   'light-yellow': '#ffe53d',
+    //   'dark-blue': '#1b2428',
+    //   white: '#fff',
+    // },
 
     screens: {
       sm: '640px',
