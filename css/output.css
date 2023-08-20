@@ -542,6 +542,10 @@ video {
   position: relative;
 }
 
+.left-\[0\] {
+  left: 0;
+}
+
 .left-\[50\%\] {
   left: 50%;
 }
@@ -550,28 +554,8 @@ video {
   right: 0;
 }
 
-.right-\[50\%\] {
-  right: 50%;
-}
-
 .top-\[-2rem\] {
   top: -2rem;
-}
-
-.left-\[-50\%\] {
-  left: -50%;
-}
-
-.right-\[-50\%\] {
-  right: -50%;
-}
-
-.left-1 {
-  left: 0.5rem;
-}
-
-.left-\[0\] {
-  left: 0;
 }
 
 .col-span-2 {
@@ -582,20 +566,12 @@ video {
   grid-column-start: 1;
 }
 
-.col-start-2 {
-  grid-column-start: 2;
-}
-
 .col-start-3 {
   grid-column-start: 3;
 }
 
 .col-start-4 {
   grid-column-start: 4;
-}
-
-.row-start-5 {
-  grid-row-start: 5;
 }
 
 .row-start-1 {
@@ -612,6 +588,10 @@ video {
 
 .row-start-4 {
   grid-row-start: 4;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
 }
 
 .m-auto {
@@ -647,28 +627,12 @@ video {
   height: 10rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-8 {
-  height: 4rem;
-}
-
-.h-\[4rem\] {
-  height: 4rem;
-}
-
-.h-\[6rem\] {
-  height: 6rem;
-}
-
-.h-\[7rem\] {
-  height: 7rem;
-}
-
 .h-\[6\.5rem\] {
   height: 6.5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-\[100vh\] {
@@ -689,14 +653,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[40rem\] {
-  max-width: 40rem;
-}
-
-.max-w-\[45rem\] {
-  max-width: 45rem;
 }
 
 .translate-x-\[-50\%\] {
@@ -752,59 +708,49 @@ video {
   border-bottom-width: 0.5rem;
 }
 
-.border-key1-shadow-1 {
-  --tw-border-opacity: 1;
-  border-color: rgb(64 78 114 / var(--tw-border-opacity));
-}
-
-.border-key2-shadow-1 {
-  --tw-border-opacity: 1;
-  border-color: rgb(147 38 26 / var(--tw-border-opacity));
-}
-
-.border-key3-shadow-1 {
+.border-theme1-keyshadow-3 {
   --tw-border-opacity: 1;
   border-color: rgb(180 165 151 / var(--tw-border-opacity));
 }
 
-.bg-key1-bg-1 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(99 112 151 / var(--tw-bg-opacity));
+.border-theme1-keyshadow-1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(64 78 114 / var(--tw-border-opacity));
 }
 
-.bg-key2-bg-1 {
+.border-theme1-keyshadow-2 {
+  --tw-border-opacity: 1;
+  border-color: rgb(147 38 26 / var(--tw-border-opacity));
+}
+
+.bg-theme1-keybg-2 {
   --tw-bg-opacity: 1;
   background-color: rgb(208 63 47 / var(--tw-bg-opacity));
 }
 
-.bg-key3-bg-2 {
+.bg-theme1-keybg-3 {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 228 225 / var(--tw-bg-opacity));
+  background-color: rgb(234 227 220 / var(--tw-bg-opacity));
 }
 
-.bg-main-1 {
+.bg-theme1-main {
   --tw-bg-opacity: 1;
   background-color: rgb(58 71 100 / var(--tw-bg-opacity));
 }
 
-.bg-main-2 {
+.bg-theme1-screen {
   --tw-bg-opacity: 1;
-  background-color: rgb(230 230 230 / var(--tw-bg-opacity));
+  background-color: rgb(24 32 52 / var(--tw-bg-opacity));
 }
 
-.bg-main-3 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 6 40 / var(--tw-bg-opacity));
-}
-
-.bg-toggle-1 {
+.bg-theme1-toggle {
   --tw-bg-opacity: 1;
   background-color: rgb(35 44 67 / var(--tw-bg-opacity));
 }
 
-.bg-screen-1 {
+.bg-theme1-keybg-1 {
   --tw-bg-opacity: 1;
-  background-color: rgb(24 32 52 / var(--tw-bg-opacity));
+  background-color: rgb(99 112 151 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -817,10 +763,6 @@ video {
 
 .p-5 {
   padding: 2.5rem;
-}
-
-.p-2 {
-  padding: 1rem;
 }
 
 .py-5 {
@@ -836,32 +778,20 @@ video {
   text-align: right;
 }
 
+.text-2xl {
+  font-size: 2rem;
+}
+
+.text-5xl {
+  font-size: 3.5rem;
+}
+
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
 }
 
 .text-\[3rem\] {
   font-size: 3rem;
-}
-
-.text-xl {
-  font-size: 1.8rem;
-}
-
-.text-2xl {
-  font-size: 2rem;
-}
-
-.text-3xl {
-  font-size: 2.5rem;
-}
-
-.text-4xl {
-  font-size: 3rem;
-}
-
-.text-5xl {
-  font-size: 3.5rem;
 }
 
 .font-bold {
@@ -885,27 +815,20 @@ video {
 /* @layer base {
 } */
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-50:hover {
+  --tw-bg-opacity: 0.5;
+}
+
+.hover\:bg-opacity-80:hover {
+  --tw-bg-opacity: 0.8;
+}
+
 @media (min-width: 768px) {
-  .md\:w-\[40rem\] {
-    width: 40rem;
-  }
-
-  .md\:w-\[38rem\] {
-    width: 38rem;
-  }
-
-  .md\:w-\[37rem\] {
-    width: 37rem;
-  }
-
-  .md\:w-\[35rem\] {
-    width: 35rem;
-  }
-
-  .md\:w-\[45rem\] {
-    width: 45rem;
-  }
-
   .md\:w-\[50rem\] {
     width: 50rem;
   }
