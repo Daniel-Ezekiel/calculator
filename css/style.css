@@ -8,3 +8,154 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+#theme1 *,
+#theme2 *,
+#theme3 * {
+  transition: all 0.4s ease-in-out;
+}
+
+/*************************
+//
+// Theme 1 Color styles 
+//
+*************************/
+
+#theme1 main {
+  background-color: #3a4764;
+  color: #fff;
+}
+
+#theme1 .theme-toggler,
+#theme1 .calculator-nums {
+  background-color: #232c43;
+}
+
+#theme1 .btn-toggle-theme {
+  background-color: #d03f2f;
+}
+
+#theme1 input {
+  background-color: #182034;
+}
+
+#theme1 .calculator-nums {
+  background-color: #232c43;
+  color: #1b2428;
+}
+
+#theme1 .num,
+#theme1 .operation,
+#theme1 .point {
+  background-color: #eae3dc;
+  border-bottom: solid 0.5rem #b4a597;
+}
+
+#theme1 .btn-delete,
+#theme1 .btn-reset {
+  background-color: #637097;
+  border-bottom: solid 0.3rem #404e72;
+}
+
+#theme1 .evaluate {
+  background-color: #d03f2f;
+  border-bottom: solid 0.3rem #93261a;
+}
+
+#theme1 .btn-delete,
+#theme1 .btn-reset,
+#theme1 .evaluate {
+  color: #fff;
+}
+
+/*************************
+//
+// Theme 2 Color styles 
+//
+*************************/
+#theme2 main {
+  background-color: #e6e6e6;
+  color: #1b2428;
+}
+
+#theme2 .theme-toggler,
+#theme2 .calculator-nums {
+  background-color: #d1cccc;
+}
+
+#theme2 .btn-toggle-theme {
+  background-color: #ca5502;
+}
+
+#theme2 input {
+  background-color: #ededed;
+}
+
+#theme2 .num,
+#theme2 .operation,
+#theme2 .point {
+  background-color: #e5e4e1;
+  border-bottom: solid 0.3rem #a69d91;
+  color: #1b2428;
+}
+
+#theme2 .btn-delete,
+#theme2 .btn-reset {
+  background-color: #377f86;
+  border-bottom: solid 0.3rem #1b5f65;
+}
+
+#theme2 .evaluate {
+  background-color: #ca5502;
+  border-bottom: solid 0.3rem #893901;
+}
+
+#theme2 .btn-delete,
+#theme2 .btn-reset,
+#theme2 .evaluate {
+  color: #fff;
+}
+
+/*************************
+//
+// Theme 3 Color styles 
+//
+*************************/
+#theme3 main {
+  background-color: #160628;
+  color: #ffe53d;
+}
+
+#theme3 .theme-toggler,
+#theme3 .calculator-nums {
+  background-color: #1d0934;
+}
+
+#theme3 .btn-toggle-theme {
+  background-color: #00e0d1;
+}
+
+#theme3 input {
+  background-color: #1d0934;
+}
+
+#theme3 .num,
+#theme3 .operation,
+#theme3 .point {
+  background-color: #341c4f;
+  border-bottom: solid 0.3rem #6cf9f2;
+  color: #ffe53d;
+}
+
+#theme3 .btn-delete,
+#theme3 .btn-reset {
+  background-color: #58077d;
+  border-bottom: solid 0.3rem #bc15f4;
+  color: #fff;
+}
+
+#theme3 .evaluate {
+  background-color: #00e0d1;
+  border-bottom: solid 0.3rem #6cf9f2;
+  color: #1b2428;
+}

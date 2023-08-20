@@ -88,10 +88,24 @@ calculator.addEventListener('click', e => {
   screen.value = newCalc.secondOperand;
 });
 
-// class Calc {
-//   add() {}
-//   subtract() {}
-//   multiply() {}
-//   divide() {}
-//   evaluate() {}
-// }
+// Theme Toggler
+let defaultTheme = 0;
+
+const body = document.querySelector('body');
+const themeToggler = document.querySelector('.theme-toggler');
+
+themeToggler.addEventListener('click', e => {
+  e.preventDefault();
+  defaultTheme++;
+  if (defaultTheme > 2) defaultTheme = 0;
+
+  themeToggler.querySelector(
+    '.btn-toggle-theme'
+  ).style.transform = `translateX(${defaultTheme * 125}%)`;
+
+  themeToggler.querySelector(
+    '.btn-toggle-theme'
+  ).style.transition = `all 0.4s ease-in-out`;
+
+  body.setAttribute('id', `theme${defaultTheme + 1}`);
+});
