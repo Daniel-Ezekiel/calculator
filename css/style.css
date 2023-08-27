@@ -57,14 +57,14 @@ html {
   border-bottom: solid 0.3rem #404e72;
 }
 
-#theme1 .evaluate {
+#theme1 .btn-evaluate {
   background-color: #d03f2f;
   border-bottom: solid 0.3rem #93261a;
 }
 
 #theme1 .btn-delete,
 #theme1 .btn-reset,
-#theme1 .evaluate {
+#theme1 .btn-evaluate {
   color: #fff;
 }
 
@@ -105,14 +105,14 @@ html {
   border-bottom: solid 0.3rem #1b5f65;
 }
 
-#theme2 .evaluate {
+#theme2 .btn-evaluate {
   background-color: #ca5502;
   border-bottom: solid 0.3rem #893901;
 }
 
 #theme2 .btn-delete,
 #theme2 .btn-reset,
-#theme2 .evaluate {
+#theme2 .btn-evaluate {
   color: #fff;
 }
 
@@ -154,7 +154,7 @@ html {
   color: #fff;
 }
 
-#theme3 .evaluate {
+#theme3 .btn-evaluate {
   background-color: #00e0d1;
   border-bottom: solid 0.3rem #6cf9f2;
   color: #1b2428;
